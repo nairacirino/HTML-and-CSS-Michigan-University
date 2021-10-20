@@ -1,0 +1,150 @@
+﻿/*Overall Body*/
+
+body{
+    margin: 2%;
+}
+
+/* Header */
+
+header{
+    padding: 15px;
+
+    background-color: #808080;
+    background-image: url("../assets/flywheel.jpg");
+    background-size: 100%;
+}
+
+h1{
+    color: #ffffff;
+    font-variant: small-caps;
+    font-size: 150%;
+
+    text-align: center;
+}
+
+/* Navigation Section */
+
+nav {
+    padding: 5px;
+    font-variant: small-caps;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav a{
+    display: inline-block;
+    width: 15%;
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    text-align: center;
+    color: #000000;
+
+    font-size: 100%;
+    background-color: rgba(255, 255, 255, .3);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.active{
+    background-color: rgba(76, 255, 0, .3);
+}
+
+nav a:hover{
+    background-color: #ffffff;
+}
+
+nav a:active{
+    background-color: #ffffff;
+}
+
+/*Pictures*/
+
+aside.left{
+    display: inline-block;
+    background-color: #718c1e;
+    width: 225px;
+    height: 700px;
+
+    float: left;
+}
+
+img{
+    width: 145px;
+    height: 75px;
+    border: 2px solid #000000;
+    display: block;
+    margin-top: 25px;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*
+h1, h2 {
+    color: #0094ff;
+    font-variant: small-caps;
+}
+
+h1{
+    text-align: center;
+}
+    */
+
+/* Section "Right" */
+section{
+    float: right;
+    width: 80%;
+
+    overflow: auto;
+}
+
+
+/*Fixing Up Table*/
+table{
+    margin-left: 15%;
+    display: block;
+}
+
+th {
+    background-image: linear-gradient(rgba(146, 159, 79, .7), rgba(146, 159, 79, 1));
+    font-size: 70%;
+    padding: 10px;
+    color: #ffffff;
+    font-family: Arial, Algerian, 'Agency FB';
+    height: 15px;
+    border-bottom: 2px solid #4cff00;
+    border-radius: 3px 3px 0 0;
+}
+
+th:first-child{
+    text-align: left;
+}
+
+td {
+    background-color: rgba(235, 245, 212, .6);
+    font-size: 70%;
+    padding: 10px;
+    color: #808080;
+    font-family: Arial, Algerian, 'Agency FB';
+    border-radius: 2px;
+    text-shadow: 2px 2px rgba(235, 245, 212, 1);
+}
+
+tr:hover{
+    background-color: rgba(235, 245, 212, 1);
+}
+
+td:first-child{
+    padding-right: 115px;
+}
+
+td:nth-child(2){
+    text-align: center;
+}
+
+td:nth-child(3){
+    text-align: center;
+}
