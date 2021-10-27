@@ -33,6 +33,8 @@ td:first-child, th:first-child {
 body {
     margin: 1%;
     padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 header {
@@ -67,6 +69,7 @@ nav a {
     display: flex;
     justify-content: center;
     width: 100%;
+    font-weight: bold;
 }
 
 .active {
@@ -92,4 +95,5 @@ img {
 
 .right {
     width: 85%;
+    padding: 2%;
 }
