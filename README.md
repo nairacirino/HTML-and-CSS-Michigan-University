@@ -21,7 +21,7 @@ Por isso, acredito que mereça então um espaço entre os repositórios público
 
 ## DEPLOY
 
-O deploy está disponível <a target="_blank" href="umifinaltest.netlify.app">aqui</a>.
+O deploy está disponível <a target="_blank" href="http://umifinaltest.netlify.app">aqui</a>.
 
 ## LINGUAGENS E FERRAMENTAS UTILIZADAS
 
